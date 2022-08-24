@@ -1,12 +1,10 @@
-# Spring Boot RESTful Webservices For Airline Reservation System
+# Spring Boot RESTful Webservices para sistema de reservas de companhias aéreas
 
-<p>This project demonstrate the ability of using and working with Spring Data JPA, REST API, complex Hibernate mapping, 
-and in memory database usage for quick test and development.</p>
-
-<p><strong><u>Goal:</u></strong> A complete <strong>Spring Boot RESTful Webservices</strong> project. Built on in memory database so very easy to test. To explore and test endpoints just clone and run the application.</p>
+<p>Este projeto demonstra a capacidade de usar e trabalhar com Spring Data JPA, API REST, mapeamento Hibernate complexo,
+e no uso do banco de dados de memória para teste e desenvolvimento rápidos.</p>
 
 <strong>
-<u>Tools used:</u>
+<u>Ferramentas:</u>
 </strong>
 <ul>
     <li>Spring Boot</li>
@@ -14,10 +12,11 @@ and in memory database usage for quick test and development.</p>
     <li>Jackson</li>
     <li>MySQL (in memory database)</li>
     <li>Maven</li>
+    <li>JWT</li
 </ul>
 
 <strong>
-<u>Some Notable Endpoints:</u>
+<u>Some Testes:</u>
 </strong>
 
 <ul>
@@ -48,10 +47,3 @@ and in memory database usage for quick test and development.</p>
     <li>DELETE - localhost:8081/api/public/delete/customer/{customerId} -> delete a customer associated with the given id, free the reservarions that were made by this customer.</li>
 </ul>
 
-Obs: {mode} refers to result order
-<ul>
-<li>1 -> Lowest fare</li>
-<li>2 -> Lowest duration</li>
-<li>3 -> Most balanced</li>
-<li>Others -> Random</li>
-</ul>
