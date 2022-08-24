@@ -16,7 +16,7 @@ e no uso do banco de dados de memória para teste e desenvolvimento rápidos.</p
 </ul>
 
 <strong>
-<u>Some Testes:</u>
+<u>Alguns Testes:</u>
 </strong>
 
 <ul>
